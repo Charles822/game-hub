@@ -1,6 +1,5 @@
 import useGenres, { Genre } from "../hooks/useGenres.ts";
 import {
-	Text,
 	List,
 	ListItem,
 	Image,

@@ -1,5 +1,4 @@
 import { Image, ImageProps } from "@chakra-ui/react";
-import React from 'react'
 import bullsEye from '../assets/bulls-eye.webp';
 import thumbsUp from '../assets/thumbs-up.webp';
 import meh from '../assets/meh.webp';
@@ -18,7 +17,7 @@ const Emojis = ({ rating }: Props) => {
 	}
 
 	return (
-		<Image {...emojiMap[rating]} MarginTop={1} />
+		<Image {...emojiMap[rating]} marginTop={1} />
 	)
 }
 
